@@ -59,6 +59,7 @@ document.querySelectorAll(".section").forEach((sec, i) => {
     { x: moves[i].from },
     {
       x: moves[i].to,
+      opacity: 1,
       ease: "power2.inOut",
       scrollTrigger: {
         trigger: sec,
@@ -104,4 +105,5 @@ gsap.timeline({
 .to([".ghost-1", ".ghost-2"], {
   opacity: 0,
   ease: "power1.out"
+
 });
