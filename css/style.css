@@ -240,6 +240,7 @@ html, body {
   border: 10px solid #111;
   background: #000;
   overflow: hidden;
+  opacity: 0;
   z-index: 99;
 }
 .device-screen {
@@ -279,3 +280,4 @@ html, body {
   object-fit: fill;
 
 }
+
